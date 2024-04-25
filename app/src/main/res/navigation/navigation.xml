@@ -21,6 +21,8 @@
         tools:layout="@layout/fragment_list_cities" >
         <action
             android:id="@+id/action_listCitiesFragment_to_homeFragment"
-            app:destination="@id/homeFragment" />
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true"/>
     </fragment>
 </navigation>

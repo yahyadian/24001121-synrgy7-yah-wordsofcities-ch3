@@ -1,6 +1,6 @@
 package com.yahya.challengechapter3
 
-val alphabets =('A' .. 'B').toList().map{ it.toString() }
+val alphabets =('A' .. 'Z').toList().map{ it.toString() }
 
 enum class Cities(val char: String, val listCities: ArrayList<String>) {
     A("A", arrayListOf("Amsterdam", "Athens", "Ankara", "Adelaide", "Alexandria")),
